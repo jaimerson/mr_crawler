@@ -1,6 +1,19 @@
 require 'rails_helper'
 
 RSpec.describe PagesController do
+  describe 'GET index' do
+    it 'lists the pages' do
+      page1 = Page.create(title: 'Foo', body: 'Body', url: 'http://example.org')
+      page2 = Page.create(title: 'Bar', body: 'Body', url: 'http://example.com')
+
+      get :index
+      actual = JSON.parse(response.body)
+      expected = [JSON.parse(page1.to_json), JSON.parse(page2.to_json)]
+
+      expect(actual).to match_array(expected)
+    end
+  end
+
   describe 'POST create' do
     subject(:post_create) do
       post :create, params: params

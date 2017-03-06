@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def index
-
+    pages = Page.all
+    render json: pages, status: :ok
   end
 
   def show
