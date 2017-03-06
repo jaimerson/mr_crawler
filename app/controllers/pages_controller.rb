@@ -5,7 +5,10 @@ class PagesController < ApplicationController
   end
 
   def show
-
+    page = Page.find(params[:id])
+    render json: page, status: :ok
+  rescue ActiveRecord::RecordNotFound
+    head :not_found
   end
 
   def create

@@ -14,6 +14,28 @@ RSpec.describe PagesController do
     end
   end
 
+  describe 'GET show' do
+    context 'when the page exists' do
+      it 'retrieves the page' do
+        page = Page.create(title: 'Foo', body: 'Body', url: 'http://example.org')
+
+        get :show, params: { id: page.id }
+        actual = JSON.parse(response.body)
+        expected = JSON.parse(page.to_json)
+
+        expect(actual).to match_array(expected)
+      end
+    end
+
+    context 'when the page does not exist' do
+      it 'returns not found' do
+        id = 12345
+        get :show, params: { id: id }
+        expect(response).to be_not_found
+      end
+    end
+  end
+
   describe 'POST create' do
     subject(:post_create) do
       post :create, params: params
