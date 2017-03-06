@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.kytrinyx.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.1 (linux-gnu x86_64) ruby/2.3.1p112
+      Host:
+      - www.kytrinyx.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Content-Type:
+      - text/html; charset=utf-8
+      Last-Modified:
+      - Thu, 09 Feb 2017 00:27:36 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Mon, 06 Mar 2017 19:30:07 GMT
+      Cache-Control:
+      - max-age=600
+      Content-Encoding:
+      - gzip
+      X-Github-Request-Id:
+      - CC86:DCE1:1A79B9A:242727C:58BDB666
+      Content-Length:
+      - '951'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 06 Mar 2017 19:49:09 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '416'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-atl6234-ATL
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Timer:
+      - S1488829749.002980,VS0,VE0
+      Vary:
+      - Accept-Encoding
+      X-Fastly-Request-Id:
+      - 84bb2eabf777360fc1d0c1b0d15aa88951a75f31
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA7VWTXPbOAy9+1cgOmwusdTm0s2u7Bkn62ky2dSdxLPTHikJ
+        llhTpIaErKi/vqAoOXG7sx+H+mLFIPEAvIenpGeFyalvECqq1XKW+i9QQpeL
+        CHW0nM0A0gpFseQHfqyRBGhR4yIqUaMVZGwEudGEmhbRbVsaeBO/fTf/Y/1X
+        BMnrW3klrEM+1NJu/iunHhKSJIXL+8/bx7sPnz+lSfg7xJTUe/DFLSLCZ0py
+        5yKwqBaRo16hqxApgsribhH5YGKRAWJ/bMz+vzPUUstaOpL5MU2ahP79JDJT
+        9MNMxqmgBVksIn8A7QQqIFfCOS7a9zYVWBE1vyVJ13Xxvicrdf8c56ZOolfN
+        iym3FofQAeO0TIsH9J8fH1IlJzi+JEtB0njephvpsZq8tZZJOg4sWt5uHtZp
+        wqDHw4mSfwP23zH8vI8A+Iw2l863uP60fry5e3r4iWgk1N4x1Hb15/3TT8Tx
+        Whc5MdLN5sN2dbP9d6w0mThMk4nZoCq0zHiQUyEPg5ZIZApvPIjk/ToymZ7E
+        H00XdpP14TD3nA+Xx0V8uVVdLm/lBdyd13AvvOoEbDrUMcNfHhXmU0+S5T2b
+        MnPuZjpzB6IGAY01pRV1jfYChC7gDmrjSPXQGbsHLqLDDDKR71EXDqSG92Y4
+        99hmfTzKLE2OWX/IryTxykAmCUzm0DksoJNUgWjJ1KxtXQ5QO2U6F0qoxd7/
+        mpsC2RtE4ccHzgBVgkDSuQMUTvKikgG2IF1iDNshpg9GHdBxW8ow3o6v75hZ
+        w1MqL6CrZF5xg6i/mD6GlT909o8t8IypQsi5Ck7iE74sH89l7peDDSz41WgH
+        047E0kRAwpbeIDP23320nGJeYL5XMA1qbq21OXomvjDxoc0KVeOgQdNw77Lm
+        2AF9LdIeGfMzcnuplDvhYWqI1XB1BdfGj9/50jebj0Ej0wkmbX1A21PlU/Wm
+        BY3MDk91r00HIjMtwSbzRc03VrLTcPTjqBd/RTqoZFFwC1I7yWwxyvkp6DWi
+        PQ+0PrFsJDwgfR2FJixCZ+UgAT/mzBh+ORjfIDcrKZ4NwpoNizKq2clSz9tm
+        nrVEgysyISfj927sPBK/174Odnx1lYUhRMNCfZdhSvyKzu9Ie7/ewvZ2Ddfr
+        7epssIY04YomYz95Hjc3vGRD5OVwujOGvD94c06bcb2b3sqyYhM/3ddg4Cul
+        YAg7lrJDe8Aihl9y0/S/w+Wbt+9OLCDkDbuYJhMY/5om4S3H9A//Esy+AZhQ
+        zs8kCAAA
+    http_version: 
+  recorded_at: Mon, 06 Mar 2017 19:49:09 GMT
+recorded_with: VCR 3.0.3
